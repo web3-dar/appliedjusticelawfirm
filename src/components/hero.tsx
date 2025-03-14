@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 flex justify-center items-center px-6">
         
         {/* Card */}
-        <div className="bg-white p-8 max-w-md bg-[#000000] shadow-lg text-start">
+        <div className=" p-8 max-w-md bg-[#000000] shadow-lg text-start">
           <h1 className="text-4xl font-bold text-white mb-6">Your Justice, Our Priority</h1>
 
           <hr className="mb-4"/>

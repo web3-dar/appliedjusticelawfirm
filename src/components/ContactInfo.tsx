@@ -107,7 +107,7 @@ const ContactInfo: React.FC = () => {
 
 
     {/* {award} */}
-    <div className="bg-gray-200 p-8 rounded-lg shadow-lg max-w-lg mx-auto">
+    <div className=" p-8 rounded-lg max-w-lg mx-auto">
      
       
       {/* Image Grid */}
