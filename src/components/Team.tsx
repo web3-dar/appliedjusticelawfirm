@@ -70,12 +70,12 @@ const Team: React.FC = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full max-h-[450px] object-cover rounded-lg shadow-md"
+                className="m-auto max-h-[450px] object-cover shadow-md"
               />
               <h3 className="mt-6 text-2xl font-bold text-gray-900">{member.name}</h3>
               <div className="w-12 h-1 bg-black mx-auto my-4"></div>
-              <p className="text-gray-700 leading-relaxed">{member.department}</p>
-              <p className="text-gray-700 leading-relaxed">{member.text}</p>
+              <p className="text-gray-700 w-[70%] m-auto leading-relaxed text-xl">{member.department}</p>
+              <p className="text-gray-500 text-sm p-4 leading-relaxed">{member.text}</p>
             </div>
           ))}
         </div>
