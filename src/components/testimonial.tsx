@@ -1,6 +1,6 @@
 import React from "react";
 import johnImg from "../assets/john.jpg";
-import emilyImg from "../assets/emily.png";
+import emilyImg from "../assets/girl2.jpg";
 import michaelImg from "../assets/mikolo.jpg";
 
 interface Testimonial {
@@ -12,26 +12,25 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "The team made the complex probate process seamless and stress-free.",
-    name: "John Smith",
+    quote: "They navigated my custody case with compassion and ensured the best outcome for my child.",
+    name: "David Reynolds",
     role: "Satisfied Client",
     image: johnImg,
   },
   {
-    quote:
-      "Their expertise in inheritance tax law saved my family a significant amount of money.",
-    name: "Emily Burgess",
+    quote: "Their guidance on property disputes was invaluable and helped us reach a fair resolution.",
+    name: "Sophia Martinez",
     role: "Grateful Client",
     image: emilyImg,
   },
   {
-    quote:
-      "They handled my family law case with utmost care and professionalism.",
-    name: "Michael Matterezzi",
-    role: "Pleased Client",
+    quote: "The team provided exceptional support during my estate planning process, making everything clear and simple.",
+    name: "Isabella Grant",
+    role: "Relieved Client",
     image: michaelImg,
   },
 ];
+
 
 const Testimonials: React.FC = () => {
   return (

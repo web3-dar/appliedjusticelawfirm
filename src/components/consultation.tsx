@@ -57,44 +57,45 @@ const Consultation: React.FC = () => {
 
           {/* Right: Content */}
           <div
-            className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
-              isVisible ? 'translate-y-0' : 'translate-y-10'
-            }`}
-          >
-            <h2 className="text-4xl font-bold text-gray-900">Att. Lucia Rocca</h2>
-            <div className="w-20 h-1 bg-black mx-auto"></div>
+  className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
+    isVisible ? 'translate-y-0' : 'translate-y-10'
+  }`}
+>
+  <h2 className="text-4xl font-bold text-gray-900">Att. Lucia Rocca</h2>
+  <div className="w-20 h-1 bg-black mx-auto"></div>
 
-            <p className="text-lg text-gray-700 font-semibold leading-relaxed">
-              Family and Matrimonial Law, Commercial Litigation, Civil Litigation, and Property Law  
-              <br />
-              LLB Cum Laude (University of Naples Federico II)
-            </p>
+  <p className="text-lg text-gray-700 font-semibold leading-relaxed">
+    Family and Matrimonial Law, Commercial Litigation, Civil Litigation, and Property Law  
+    <br />
+    LLB Cum Laude (University of Milan)
+  </p>
 
-            <p className="text-gray-600 leading-relaxed">
-              Att. Lucia Rocca excels in the areas of Family and Matrimonial Law, Commercial Litigation, Civil Litigation, and Property Law. Holding an LLB Cum Laude from the University of Naples Federico II, Lucia brings a wealth of knowledge and expertise to our team.
-            </p>
+  <p className="text-gray-600 leading-relaxed">
+    With a distinguished LLB Cum Laude from the University of Milan, Att. Lucia Rocca specializes in Family and Matrimonial Law, Commercial Litigation, Civil Litigation, and Property Law. Her client-centered approach and meticulous attention to detail ensure effective and tailored legal solutions.
+  </p>
 
-            {/* Contact Icons */}
-            <div className="flex justify-center space-x-6 text-gray-800">
-              <a href="mailto:example@email.com" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
-                <FaEnvelope size={32} />
-              </a>
-              <a href="#" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
-                <FaCreditCard size={32} />
-              </a>
-              <a href="tel:+1234567890" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
-                <FaPhone size={32} />
-              </a>
-            </div>
+  {/* Contact Icons */}
+  <div className="flex justify-center space-x-6 text-gray-800">
+    <a href="mailto:example@email.com" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+      <FaEnvelope size={32} />
+    </a>
+    <a href="#" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+      <FaCreditCard size={32} />
+    </a>
+    <a href="tel:+1234567890" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+      <FaPhone size={32} />
+    </a>
+  </div>
 
-            {/* Read More */}
-            <a
-              href="#"
-              className="text-gray-800 hover:text-purple-600 font-semibold inline-flex items-center transition-transform duration-300 transform hover:translate-x-1"
-            >
-              Read More &gt;
-            </a>
-          </div>
+  {/* Read More */}
+  <a
+    href="#"
+    className="text-gray-800 hover:text-purple-600 font-semibold inline-flex items-center transition-transform duration-300 transform hover:translate-x-1"
+  >
+    Read More &gt;
+  </a>
+</div>
+
         </div>
       </div>
 
@@ -106,27 +107,23 @@ const Consultation: React.FC = () => {
       >
         <div className="flex flex-col lg:flex-row gap-8 items-center">
  {/* Right: Content */}
-          <div
-            className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
-              isVisible ? 'translate-y-0' : 'translate-y-10'
-            }`}
-          >
-            <h2 className="text-4xl font-bold text-[#000000]">Jannie Kruger</h2>
-            <div className="w-20 h-1 bg-black mx-auto"></div>
+ <div
+  className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
+    isVisible ? 'translate-y-0' : 'translate-y-10'
+  }`}
+>
+  <h2 className="text-4xl font-bold text-[#000000]">David Reynolds</h2>
+  <div className="w-20 h-1 bg-black mx-auto"></div>
 
-            <p className="text-lg text-gray-700 font-semibold leading-relaxed">
-            Criminal Litigation BA LLB (RAU)
-             
-            </p>
+  <p className="text-lg text-gray-700 font-semibold leading-relaxed">
+    Corporate Law Specialist LLB (University of Pretoria)
+  </p>
 
-            <p className="text-gray-600 leading-relaxed">
-            Although he has retired as a Director of Applied Justice Law Firm Attorneys, Jannie Kruger continues to be an active consultant and still represents the firm in prominent matters.
-            </p>
+  <p className="text-gray-600 leading-relaxed">
+    David Reynolds is a seasoned Corporate Law expert with over 18 years of experience. He specializes in business litigation and regulatory compliance, providing clients with strategic legal solutions and dedicated representation.
+  </p>
+</div>
 
-          
-
-          
-          </div>
           {/* Left: Image */}
           <div
             className={`lg:w-1/2 mb-8 lg:mb-0 transform transition-transform duration-1000 ease-in-out ${
@@ -166,24 +163,22 @@ const Consultation: React.FC = () => {
 
           {/* Right: Content */}
           <div
-            className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
-              isVisible ? 'translate-y-0' : 'translate-y-10'
-            }`}
-          >
-            <h2 className="text-4xl font-bold text-gray-900">Liam Chen</h2>
-            <div className="w-20 h-1 bg-black mx-auto"></div>
+  className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
+    isVisible ? 'translate-y-0' : 'translate-y-10'
+  }`}
+>
+  <h2 className="text-4xl font-bold text-gray-900">Ethan Parker</h2>
+  <div className="w-20 h-1 bg-black mx-auto"></div>
 
-            <p className="text-lg text-gray-700 font-semibold leading-relaxed">
-            Legal Assistant
-            </p>
+  <p className="text-lg text-gray-700 font-semibold leading-relaxed">
+    Paralegal Specialist
+  </p>
 
-            <p className="text-gray-600 leading-relaxed">
-            Liam is committed to delivering efficient and effective administrative support to the firm.
+  <p className="text-gray-600 leading-relaxed">
+    Ethan provides comprehensive legal research and administrative support, ensuring the smooth handling of client cases and internal operations.
+  </p>
+</div>
 
-
-            </p>
-
-          </div>
         </div>
       </div>
     </section>
