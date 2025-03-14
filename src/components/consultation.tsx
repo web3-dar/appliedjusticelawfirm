@@ -1,0 +1,193 @@
+import React, { useEffect, useState } from 'react';
+import consultationImage from '../assets/consult.jpg'; 
+import consultationImage2 from '../assets/jurgen.jpg'; 
+import consultationImage3 from '../assets/iketa.jpg'; 
+import { FaEnvelope, FaPhone, FaCreditCard } from 'react-icons/fa';
+
+const Consultation: React.FC = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  // Detect if the component is in view
+  useEffect(() => {
+    const handleScroll = () => {
+      const section = document.getElementById('consultation-section');
+      if (section) {
+        const { top, bottom } = section.getBoundingClientRect();
+        const isInView = top < window.innerHeight && bottom >= 0;
+        setIsVisible(isInView);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Trigger once on mount
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <section id="consultation-section" className="bg-gray-100 py-12 font-poppins">
+
+<div className="text-center mb-12">
+        <h2 className="text-4xl font-semibold text-[#0a043c] uppercase relative inline-block">
+        Consultants
+          {/* Underline */}
+          <span className="block w-16 h-[3px] bg-[#0a043c] mx-auto mt-2 rounded-full"></span>
+        </h2>
+      </div>
+
+
+      <div
+        className={`container mx-auto px-6 lg:px-20 transition-opacity duration-1000 ease-in-out ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        }`}
+      >
+        <div className="flex flex-col lg:flex-row gap-8 items-center">
+
+          {/* Left: Image */}
+          <div
+            className={`lg:w-1/2 mb-8 lg:mb-0 transform transition-transform duration-1000 ease-in-out ${
+              isVisible ? 'translate-y-0' : 'translate-y-10'
+            }`}
+          >
+            <img
+              src={consultationImage}
+              alt="Attorney Consultation"
+              className="shadow-lg w-full max-h-[500px] object-cover "
+            />
+          </div>
+
+          {/* Right: Content */}
+          <div
+            className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
+              isVisible ? 'translate-y-0' : 'translate-y-10'
+            }`}
+          >
+            <h2 className="text-4xl font-bold text-gray-900">Att. Lucia Rocca</h2>
+            <div className="w-20 h-1 bg-black mx-auto"></div>
+
+            <p className="text-lg text-gray-700 font-semibold leading-relaxed">
+              Family and Matrimonial Law, Commercial Litigation, Civil Litigation, and Property Law  
+              <br />
+              LLB Cum Laude (University of Naples Federico II)
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Att. Lucia Rocca excels in the areas of Family and Matrimonial Law, Commercial Litigation, Civil Litigation, and Property Law. Holding an LLB Cum Laude from the University of Naples Federico II, Lucia brings a wealth of knowledge and expertise to our team.
+            </p>
+
+            {/* Contact Icons */}
+            <div className="flex justify-center space-x-6 text-gray-800">
+              <a href="mailto:example@email.com" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+                <FaEnvelope size={32} />
+              </a>
+              <a href="#" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+                <FaCreditCard size={32} />
+              </a>
+              <a href="tel:+1234567890" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+                <FaPhone size={32} />
+              </a>
+            </div>
+
+            {/* Read More */}
+            <a
+              href="#"
+              className="text-gray-800 hover:text-purple-600 font-semibold inline-flex items-center transition-transform duration-300 transform hover:translate-x-1"
+            >
+              Read More &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <br /> <br />
+      <div
+        className={`container mx-auto px-6 lg:px-20 transition-opacity duration-1000 ease-in-out ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        }`}
+      >
+        <div className="flex flex-col lg:flex-row gap-8 items-center">
+ {/* Right: Content */}
+          <div
+            className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
+              isVisible ? 'translate-y-0' : 'translate-y-10'
+            }`}
+          >
+            <h2 className="text-4xl font-bold text-[#000000]">Jannie Kruger</h2>
+            <div className="w-20 h-1 bg-black mx-auto"></div>
+
+            <p className="text-lg text-gray-700 font-semibold leading-relaxed">
+            Criminal Litigation BA LLB (RAU)
+             
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+            Although he has retired as a Director of Applied Justice Law Firm Attorneys, Jannie Kruger continues to be an active consultant and still represents the firm in prominent matters.
+            </p>
+
+          
+
+          
+          </div>
+          {/* Left: Image */}
+          <div
+            className={`lg:w-1/2 mb-8 lg:mb-0 transform transition-transform duration-1000 ease-in-out ${
+              isVisible ? 'translate-y-0' : 'translate-y-10'
+            }`}
+          >
+            <img
+              src={consultationImage2}
+              alt="Attorney Consultation"
+              className="shadow-lg w-full max-h-[500px] object-cover "
+            />
+          </div>
+
+         
+        </div>
+      </div>
+      <br /> <br />
+      <div
+        className={`container mx-auto px-6 lg:px-20 transition-opacity duration-1000 ease-in-out ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        }`}
+      >
+        <div className="flex flex-col lg:flex-row gap-8 items-center">
+
+          {/* Left: Image */}
+          <div
+            className={`lg:w-1/2 mb-8 lg:mb-0 transform transition-transform duration-1000 ease-in-out ${
+              isVisible ? 'translate-y-0' : 'translate-y-10'
+            }`}
+          >
+            <img
+              src={consultationImage3}
+              alt="Attorney Consultation"
+              className="shadow-lg w-full max-h-[500px] object-cover "
+            />
+          </div>
+
+          {/* Right: Content */}
+          <div
+            className={`lg:w-1/2 text-center space-y-6 transform transition-transform duration-1000 delay-200 ${
+              isVisible ? 'translate-y-0' : 'translate-y-10'
+            }`}
+          >
+            <h2 className="text-4xl font-bold text-gray-900">Liam Chen</h2>
+            <div className="w-20 h-1 bg-black mx-auto"></div>
+
+            <p className="text-lg text-gray-700 font-semibold leading-relaxed">
+            Legal Assistant
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+            Liam is committed to delivering efficient and effective administrative support to the firm.
+
+
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Consultation;
