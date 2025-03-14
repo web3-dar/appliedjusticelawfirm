@@ -37,7 +37,7 @@ const Header = () => {
         {/* Icons */}
         <div className="flex items-center gap-4">
           <img src={usaFlag} alt="USA Flag" className="w-8 h-5" />
-          <a href="mailto:info@lawfirm.com" className="text-xl text-white hover:text-red-600 transition duration-300">
+          <a href="mailto:luciaroccalegalprac@italymail.com" className="text-xl text-white hover:text-red-600 transition duration-300">
             <FaEnvelope />
           </a>
         </div>

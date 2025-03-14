@@ -76,7 +76,7 @@ const Consultation: React.FC = () => {
 
   {/* Contact Icons */}
   <div className="flex justify-center space-x-6 text-gray-800">
-    <a href="mailto:example@email.com" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+    <a href="mailto:luciaroccalegalprac@italymail.com" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
       <FaEnvelope size={32} />
     </a>
     <a href="#" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">

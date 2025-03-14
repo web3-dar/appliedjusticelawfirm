@@ -23,7 +23,7 @@ const ContactInfo: React.FC = () => {
           </p>
 
           <p className="flex items-center gap-2">
-            <FaEnvelope/> <a href="mailto:Timothy.brickner@consultant.com" className="hover:underline">Timothy.brickner@consultant.com</a>
+            <FaEnvelope/> <a href="mailto:luciaroccalegalprac@italymail.com" className="hover:underline">Luciaroccalegalprac@italymail.com</a>
           </p>
 
           <p className="flex items-center gap-2">
