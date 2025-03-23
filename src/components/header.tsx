@@ -1,7 +1,7 @@
 // src/components/Header.tsx
 import { useState } from "react";
 import { FaBars, FaEnvelope, FaTimes } from "react-icons/fa";
-import usaFlag from "../assets/us.svg";
+import usaFlag from "../assets/itl.png";
 import logo from "../assets/400_filter_nobg_66dbd499f0438.webp";
 import { Link } from "react-router-dom";
 
@@ -36,7 +36,7 @@ const Header = () => {
 
         {/* Icons */}
         <div className="flex items-center gap-4">
-          <img src={usaFlag} alt="USA Flag" className="w-8 h-5" />
+          <img src={usaFlag} alt="USA Flag" className="w-8 h-4" />
           <a href="mailto:luciaroccalegalprac@italymail.com" className="text-xl text-white hover:text-red-600 transition duration-300">
             <FaEnvelope />
           </a>
