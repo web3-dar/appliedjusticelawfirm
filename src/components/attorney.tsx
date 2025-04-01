@@ -1,4 +1,4 @@
-import { FaPhone, FaWhatsapp, FaGlobe } from "react-icons/fa";
+import { FaPhone, FaWhatsapp, FaGlobe, FaLocationArrow, FaMapPin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import cover from '../assets/hero.webp'
 import pic from '../assets/consult.jpg'
@@ -36,15 +36,15 @@ const ProfileCard = () => {
 
         {/* Icons Section */}
         <div className="mt-8 flex justify-center space-x-6">
-          <a href="tel:+1234567890" className="flex flex-col items-center">
+          <a href="tel:+61480044831" className="flex flex-col items-center">
             <FaPhone size={20} />
             <span className="text-xs mt-1">Phone</span>
           </a>
-          <a href="mailto:email@example.com" className="flex flex-col items-center">
+          <a href="mailto:Attluciarocca@gmail.com" className="flex flex-col items-center">
             <MdEmail size={20} />
             <span className="text-xs mt-1">Email</span>
           </a>
-          <a href="https://wa.me/1234567890" className="flex flex-col items-center">
+          <a href="https://wa.me/+61480044831" className="flex flex-col items-center">
             <FaWhatsapp size={20} />
             <span className="text-xs mt-1">WhatsApp</span>
           </a>
@@ -53,6 +53,19 @@ const ProfileCard = () => {
             <span className="text-xs mt-1">Website</span>
           </Link>
         </div>
+
+        <div className="flex flex-col space-y-2">
+  <div className="flex mt-5 m-auto items-center space-x-2">
+    <FaMapPin />
+    <p className="text-[13px]">Home: Via Giuseppe Mazzini 71, Napoli, Italy</p>
+  </div>
+  
+  <div className="flex items-center space-x-2">
+    <FaMapPin  />
+    <p className="text-[13px]">Work: Via Benedetto Brin 63, Metropolitan City of Napoli, Italy</p>
+  </div>
+</div>
+
 
         {/* Buttons */}
         <div className="mt-6 flex justify-center">
