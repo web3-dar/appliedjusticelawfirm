@@ -82,7 +82,7 @@ const Consultation: React.FC = () => {
     <a href="#" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
       <FaCreditCard size={32} />
     </a>
-    <a href="tel:+1234567890" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
+    <a href="tel:+61480044831" className="hover:text-purple-600 transition-transform duration-300 hover:scale-110">
       <FaPhone size={32} />
     </a>
   </div>
