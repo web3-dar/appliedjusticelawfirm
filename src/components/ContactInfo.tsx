@@ -15,11 +15,11 @@ const ContactInfo: React.FC = () => {
         {/* Contact Details */}
         <div className="text-gray-900 space-y-4">
           <p className="text-lg">
-            <strong>Via Benedetto Brin, 63, 80142 Naples, Metropolitan City of Naples, Italy</strong>
+            <strong>Via Benedetto Brin 63, Metropolitan City of Napoli Italy</strong>
           </p>
 
           <p className="flex items-center gap-2">
-            <FaPhone/> <span>+31-97005032677</span>
+            <FaPhone/> <span>+61480044831</span>
           </p>
 
           <p className="flex items-center gap-2">
@@ -49,7 +49,7 @@ const ContactInfo: React.FC = () => {
     </section>
     <div className="bg-[#fff]">
  <div className="text-center mb-12 ">
-        <h2 className="text-4xl font-semibold text-[#0a043c] uppercase relative inline-block">
+        <h2 className="text-4xl  mt-5 font-semibold text-[#0a043c] uppercase relative inline-block">
           Applied Justice
           {/* Underline */}
           <span className="block w-16 h-[3px] bg-[#0a043c] mx-auto mt-2 rounded-full"></span>
