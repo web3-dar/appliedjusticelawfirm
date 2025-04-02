@@ -88,12 +88,12 @@ const Consultation: React.FC = () => {
   </div>
 
   {/* Read More */}
-  <a
+  {/* <a
     href="#"
     className="text-gray-800 hover:text-purple-600 font-semibold inline-flex items-center transition-transform duration-300 transform hover:translate-x-1"
   >
     Read More &gt;
-  </a>
+  </a> */}
 </div>
 
         </div>

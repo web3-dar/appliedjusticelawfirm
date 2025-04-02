@@ -8,7 +8,7 @@ import React from 'react';
 // import AboutUs from '../components/about';
 // import Testimonials from '../components/testimonial';
 // import ConsultationForm from '../components/ReConsult';
-// import ContactInfo from '../components/ContactInfo';
+import ContactInfo from '../components/ContactInfo'; 
 import AttorneyProfile from '../components/attorney';
 
 const Home: React.FC = () => {
@@ -23,8 +23,8 @@ const Home: React.FC = () => {
     <AboutUs/>
     <Testimonials/>
     <ConsultationForm/>
-    <ContactInfo/> */}
-    
+    */}
+     <ContactInfo/>
     </>
   );
 };

@@ -37,7 +37,7 @@ const AboutUs: React.FC = () => {
   </p>
 
   <br /> <br />
-  <button className="bg-black text-white px-8 py-4">Read More</button>
+  {/* <button className="bg-black text-white px-8 py-4">Read More</button> */}
 </div>
 
       </div>
