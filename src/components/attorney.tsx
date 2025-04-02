@@ -1,4 +1,4 @@
-import { FaPhone, FaWhatsapp, FaGlobe, FaLocationArrow, FaMapPin } from "react-icons/fa";
+import { FaPhone, FaWhatsapp, FaGlobe, FaMapPin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import cover from '../assets/hero.webp'
 import pic from '../assets/consult.jpg'
